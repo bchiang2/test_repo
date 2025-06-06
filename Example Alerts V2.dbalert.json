@@ -6,4 +6,19 @@
       "aggregation" : "AGGREGATION_UNSPECIFIED"
     },
     "comparison_operator" : "GREATER_THAN",
-  
+    "threshold" : {
+      "value" : {
+        "double_value" : 2.0
+      }
+    },
+    "notification" : {
+      "retrigger_seconds" : 0,
+      "notify_on_ok" : false
+    }
+  },
+  "schedule" : {
+    "quartz_cron_schedule" : "36 3 */1 * * ?",
+    "timezone_id" : "America/Los_Angeles"
+  },
+  "query_lines" : [ "select 1;" ]
+}
