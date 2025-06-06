@@ -1,8 +1,8 @@
 {
   "evaluation" : {
     "source" : {
-      "name" : "1",
-      "display" : "1",
+      "name" : "100",
+      "display" : "100",
       "aggregation" : "AGGREGATION_UNSPECIFIED"
     },
     "comparison_operator" : "GREATER_THAN",
