@@ -1,8 +1,8 @@
 {
   "evaluation" : {
     "source" : {
-      "name" : "5",
-      "display" : "5",
+      "name" : "6",
+      "display" : "6",
       "aggregation" : "AGGREGATION_UNSPECIFIED"
     },
     "comparison_operator" : "GREATER_THAN",
@@ -20,5 +20,5 @@
     "quartz_cron_schedule" : "36 3 */1 * * ?",
     "timezone_id" : "America/Los_Angeles"
   },
-  "query_lines" : [ "select 5;" ]
+  "query_lines" : [ "select 6;" ]
 }
