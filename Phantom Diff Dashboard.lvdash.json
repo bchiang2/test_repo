@@ -1,0 +1,136 @@
+{
+  "pages": [
+    {
+      "name": "087895de",
+      "displayName": "page a",
+      "pageType": "PAGE_TYPE_CANVAS"
+    },
+    {
+      "name": "e94ed28d",
+      "displayName": "page 2",
+      "pageType": "PAGE_TYPE_CANVAS"
+    },
+    {
+      "name": "f4f19c89",
+      "displayName": "page b",
+      "pageType": "PAGE_TYPE_CANVAS"
+    },
+    {
+      "name": "bd6bfb8a",
+      "displayName": "page c",
+      "pageType": "PAGE_TYPE_CANVAS"
+    },
+    {
+      "name": "943af1ac",
+      "displayName": "Filter",
+      "layout": [
+        {
+          "widget": {
+            "name": "ff19b00e",
+            "spec": {
+              "version": 2,
+              "widgetType": "filter-single-select",
+              "encodings": {},
+              "frame": {
+                "showTitle": true
+              }
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 2,
+            "height": 1
+          }
+        }
+      ],
+      "pageType": "PAGE_TYPE_CANVAS"
+    },
+    {
+      "name": "61ae2f24",
+      "displayName": "page 3",
+      "pageType": "PAGE_TYPE_CANVAS"
+    },
+    {
+      "name": "69060d7c",
+      "displayName": "Text",
+      "layout": [
+        {
+          "widget": {
+            "name": "e57ce5f3",
+            "multilineTextboxSpec": {
+              "lines": [
+                "# Hello World\n"
+              ]
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 6,
+            "height": 2
+          }
+        },
+        {
+          "widget": {
+            "name": "2d9e0b35",
+            "multilineTextboxSpec": {
+              "lines": [
+                "3"
+              ]
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 4,
+            "width": 6,
+            "height": 2
+          }
+        },
+        {
+          "widget": {
+            "name": "45761717",
+            "multilineTextboxSpec": {
+              "lines": [
+                "2"
+              ]
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 2,
+            "width": 6,
+            "height": 2
+          }
+        },
+        {
+          "widget": {
+            "name": "7774c76d",
+            "multilineTextboxSpec": {
+              "lines": [
+                "1"
+              ]
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 2,
+            "width": 6,
+            "height": 2
+          }
+        }
+      ],
+      "pageType": "PAGE_TYPE_CANVAS"
+    },
+    {
+      "name": "7422988c",
+      "displayName": "page 1",
+      "pageType": "PAGE_TYPE_CANVAS"
+    }
+  ],
+  "uiSettings": {
+    "theme": {
+      "widgetHeaderAlignment": "ALIGNMENT_UNSPECIFIED"
+    }
+  }
+}
