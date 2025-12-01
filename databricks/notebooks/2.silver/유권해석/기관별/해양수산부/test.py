@@ -1,2 +1,2 @@
-# Placeholder notebook to reproduce NFC/NFD mismatch on Databricks.
-print("Hello")
+# Databricks notebook source
+print("Hello World")
