@@ -1,0 +1,27 @@
+name: Cut Hourly Release Candidate
+
+on:
+  schedule:
+    # Runs at minute 0 past every hour
+    - cron: '0 * * * *'
+  workflow_dispatch: 
+    # This enables the "Run workflow" button in the GitHub UI for manual triggers
+
+jobs:
+  update-branch:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Required to push the new branch
+
+    steps:
+      - name: Checkout master branch
+        uses: actions/checkout@v4
+        with:
+          ref: master
+          fetch-depth: 0 
+
+      - name: Update release-candidate branch
+        run: |
+          # Pushes the current state of 'master' to 'release-candidate'
+          # The --force flag ensures it overwrites the branch if it already exists
+          git push origin HEAD:release-candidate --force
